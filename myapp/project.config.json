@@ -1,13 +1,35 @@
 {
-  "miniprogramRoot": "./dist",
+  "miniprogramRoot": "dist/",
   "projectname": "myapp",
-  "description": "tarojs Report",
-  "appid": "touristappid",
+  "description": "",
+  "appid": "wxb273918ceabe2de6",
   "setting": {
     "urlCheck": true,
-    "es6": false,
-    "postcss": false,
-    "minified": false
+    "es6": true,
+    "enhance": true,
+    "compileHotReLoad": false,
+    "postcss": true,
+    "minified": true,
+    "coverView": false,
+    "showShadowRootInWxmlPanel": false,
+    "packNpmRelationList": [],
+    "ignoreUploadUnusedFiles": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    }
   },
-  "compileType": "miniprogram"
+  "compileType": "miniprogram",
+  "libVersion": "3.0.2",
+  "srcMiniprogramRoot": "dist/",
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "condition": {},
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
+  }
 }
